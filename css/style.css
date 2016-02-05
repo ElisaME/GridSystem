@@ -1,0 +1,43 @@
+/* Inserta tu codigo aqui */
+body{
+	font-family: Arial;
+}
+/*Menu*/
+li{
+	font-size: 12px;
+	display: inline-block;
+	list-style: none;
+	padding: 5px 10px;
+	color: #BDBDBD;
+}
+.gris{
+	background-color: #424242;
+}
+.logo{
+	height: 50px;
+}
+/*Padding*/
+.pad2-t{
+	padding-top: 2%;
+}
+.pad2-b{
+	padding-bottom: 2%;
+}
+/*Latest Episodes*/
+#LatestEpisodes{
+	background-color: #E6E6E6;
+}
+.imgLatest{
+	max-height: 200px;
+	border: 2px solid white;
+}
+#LatestEpisodes p{
+	color: #013ADF;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+}
+/*Miniaturas*/
+.imgMini{
+	max-width: 100px;
+}
