@@ -1,6 +1,6 @@
 /* Inserta tu codigo aqui */
 body{
-	font-family: Arial;
+	font-family: Montserrat;
 }
 /*Menu*/
 li{
@@ -32,6 +32,9 @@ li{
 .mar2-t{
 	margin-top: 2%;
 }
+.mar4-b{
+	margin-bottom: 4%;
+}
 .mar2-r{
 	margin-right: 2%;
 }
@@ -53,26 +56,60 @@ li{
 #LatestEpisodes p{
 	color: #013ADF;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: center;
 }
 /*Miniaturas*/
-.imgMini{
+#Galeria img{
 	max-height: 90px;
 	border: 3px white solid;
 	outline: 1px #E6E6E6 solid;
 }
-#Galeria p{
+.text-desc{
 	color: #013ADF;
-	font-weight: normal;
 	font-size: 10px;
 	text-align: center;
 	max-width: 80px;
 }
-/*Iconos*/
-.size12{
-max-width: 12px;
+/*Iconos/Texto de lado derecho*/
+#icono img{
+	max-width: 12px;
+	border:none;
+	outline: none;
 }
-.txt-icons{
-	font-family: 11px;
+.txt-d{
+	color:#013ADF ;
+	font-size:12px;
 }
+.txt-n{
+	color: black;
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: justify;
+}
+/*Footer*/
+.txt-f{
+	color: #BDBDBD;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1.5;
+}
+footer>li{
+	font-size: 11px;
+	display: inline-block;
+	list-style: none;
+	padding: 5px 10px;
+	color: #BDBDBD;
+}
+.center{
+	text-align: center;
+}
+.copyright{
+	font-size: 10px;
+	text-align: center;
+	color: #BDBDBD;
+}
+.copy-ico{
+	max-width: 12px;
+}
+
